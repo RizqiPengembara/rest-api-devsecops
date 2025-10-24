@@ -1,85 +1,30 @@
-# ======================================
-# 🧩 NODE.JS PROJECT IGNORE FILE
-# ======================================
-
-# === Node Modules ===
+# Node & build artifacts
 node_modules/
-
-# === Build Output ===
 dist/
 build/
-report/
 coverage/
+.cache/
+
+# Security & scan reports
+report/
 dependency-check/
 owasp/
 owasp-legacy/
-
-# === Environment Files ===
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# === Logs ===
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-logs/
-debug.log
-
-# === SonarQube and Dependency Check ===
-.sonar/
 .scannerwork/
-dependency-check-report.html
-dependency-check-report.xml
-dependency-check-report.json
 
-# === Docker ===
-*.pid
-*.seed
-docker-compose.override.yml
-
-# === Archives and Packages ===
+# Logs & archives
+*.log
 *.zip
 *.tar
-*.gz
 *.tgz
-*.rar
 *.jar
+*.war
+*.gz
 
-# === Test Artifacts ===
-*.test.js
-*.spec.js
-coverage/
-__tests__/
-__mocks__/
-
-# === IDE / Editor Settings ===
-.vscode/
-.idea/
-*.swp
-*.swo
-*.bak
-*.tmp
-
-# === OS Generated Files ===
+# OS / editor junk
 .DS_Store
 Thumbs.db
-ehthumbs.db
-Desktop.ini
+.vscode/
+.idea/
 
-# === Temporary Files ===
-tmp/
-temp/
-.cache/
-*.tmp
-*.log.*
 
-# === CI/CD ===
-jenkins_home/
-reports/
-pipeline-artifacts/
- 
